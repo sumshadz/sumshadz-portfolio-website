@@ -24,7 +24,7 @@ const Banner = () => {
         animate={{y: 0, opacity: 1}}
         transition={{duration: 0.5, delay: 0.8}}
         className="text-base md:max-w-[650px] text-textDark font-medium">
-          I'm a tech enthusiast and software developer, constantly exploring new technologies and pushing the boundaries of whats possible. Interned as a Programmer Analyst at Amazon and have 1 year of internship experience in React.js. {" "}
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque eius quidem quasi itaque, in vero? Molestias amet qui quibusdam repellendus cum numquam omnis nihil, modi excepturi ab, aliquam officiis voluptatum.
         <a href="https://github.com/sumshadz" target="_blank">
             <span className="text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group"> 
             Learn More
