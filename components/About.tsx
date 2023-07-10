@@ -14,13 +14,12 @@ const About = () => {
             <SectionTitle title="About me" titleNo="01" />
             <div className="flex flex-col lgl:flex-row gap-16">
                 <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos obcaecati repellat fuga ad vero, ullam explicabo in sed! Autem sit corporis sed iusto nostrum dolor quia magni ipsa <span className="text-textGreen">minima officiis est ratione hic</span> rem harum sapiente tempore, in ea aut soluta cumque asperiores unde ex sint repellat? Minus numquam illum cum, similique ipsa distinctio amet officiis voluptates, corrupti commodi aut voluptatibus tempore earum, suscipit recusandae rerum quidem est odit nostrum!</p>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis aliquam, doloremque ut fugit autem quaerat deleniti molestias eius officiis dolorem iste enim dolorum dolores quidem hic quae distinctio et pariatur <span className="text-textGreen">ab? Esse tempore molestiae, tempora et repellat dicta cumque porro similique eum, ex, recusandae illo?</span> Ratione eos eius optio. In.</p>
+                    <p>{`Tech enthusiast and software developer with experience as an Amazon Intern. Proficient in React.js, Java, TypeScript, HTML, and CSS. Strong expertise in developing, optimizing, and troubleshooting software solutions. Skilled in AWS services, Java SDK, and AWS CDK. Collaborative team player with a Bachelor's in Information Technology. Passionate about pushing boundaries and exploring new technologies. Excited to connect with professionals and contribute to innovative projects. Also, a lover of dance, music, and interior decoration. Let's connect and together, we can create remarkable solutions that shape the future of technology.`}</p>
 
                     <ul className="max-w-[450] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6">
                         <li className="flex items-center gap-2">
                             <span className="text-textGreen"><AiFillThunderbolt/></span>
-                            JavaScript (ES6+)
+                            React.js
                         </li>
                         <li className="flex items-center gap-2">
                             <span className="text-textGreen"><AiFillThunderbolt/></span>
@@ -36,7 +35,15 @@ const About = () => {
                         </li>
                         <li className="flex items-center gap-2">
                             <span className="text-textGreen"><AiFillThunderbolt/></span>
-                            React.js
+                            Tailwind CSS
+                        </li>
+                        <li className="flex items-center gap-2">
+                            <span className="text-textGreen"><AiFillThunderbolt/></span>
+                            C++
+                        </li>
+                        <li className="flex items-center gap-2">
+                            <span className="text-textGreen"><AiFillThunderbolt/></span>
+                            OOPs
                         </li>
                     </ul>
                 </div>

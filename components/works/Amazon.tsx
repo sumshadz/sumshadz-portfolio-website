@@ -16,15 +16,27 @@ const Amazon = () => {
 	 <ul className="mt-6 flex-col gap-3">
 		<li className="text-base flex gap-2 text-textDark">
 			<span className="text-textGreen mt-1"><TiArrowForward/></span>
-			Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente sit saepe, voluptates eligendi obcaecati quisquam!
+			{`Interned for 6 months as a Programmer Analyst, gaining valuable experience in developing, optimizing, and troubleshooting software solutions.`}
 		</li>
 		<li className="text-base flex gap-2 text-textDark">
 			<span className="text-textGreen mt-1"><TiArrowForward/></span>
-			Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem odio non impedit.
+			{`I worked on various AWS services including S3, SQS, Ddb, CloudWatch, and AppConfig. I used Java SDK to interact with these services and AWS CDK to create AWS resources.`} 
 		</li>
 		<li className="text-base flex gap-2 text-textDark">
 			<span className="text-textGreen mt-1"><TiArrowForward/></span>
-			Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum, nihil.
+			Improved skills in Java and TypeScript throughout the internship. Actively participated in code reviews to enhance code quality.
+		</li>
+		<li className="text-base flex gap-2 text-textDark">
+			<span className="text-textGreen mt-1"><TiArrowForward/></span>
+			Migrated configurations to AWS AppConfig for improved configuration management and eliminated dedicated deployments for configuration changes in the main service.
+		</li>
+		<li className="text-base flex gap-2 text-textDark">
+			<span className="text-textGreen mt-1"><TiArrowForward/></span>
+			{`Used Java, Spring, and OOPs to derive project code for accounting data for Amazon's transportation needs. Also added validations to prevent messages from being sent to DLQ.`}
+		</li>
+		<li className="text-base flex gap-2 text-textDark">
+			<span className="text-textGreen mt-1"><TiArrowForward/></span>
+			Automated AWS alarm creation for SQSs using AWS CDK and typescript to avoid manual creation of alarms.
 		</li>
 	 </ul>
 	</motion.div>

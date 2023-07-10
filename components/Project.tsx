@@ -1,7 +1,7 @@
 import React from 'react';
 import SectionTitle from './SectionTitle';
 import Image from 'next/image';
-import profileImg from "../public/assets/profileImg.jpg";
+import weatherApp from "../public/assets/weatherApp.png";
 import { AiOutlineYoutube } from 'react-icons/ai';
 import { TbBrandGithub } from 'react-icons/tb';
 import { RxOpenInNewWindow } from 'react-icons/rx';
@@ -10,7 +10,7 @@ const Project = () => {
   return (
 	<section 
 	id="project"
-	className="max-w-container mx-auto lgl:px-20 py-24"
+	className="max-w-container mx-auto lgl:px-10 py-24"
 	>
 		<SectionTitle title="Projects"titleNo="03"/>
 		<div className="w-full flex flex-col items-center justify-between gap-28 mt-10">
@@ -25,7 +25,7 @@ const Project = () => {
 				<div>
 					<Image
 					className="w-full h-full object-contain"
-					src={profileImg}
+					src={weatherApp}
 					alt="project1"
 					/>
 				</div>
@@ -34,7 +34,7 @@ const Project = () => {
 				<p className="font-titleFont text-textGreen text-sm tracking-wide">Featured Project</p>
 				<h3 className="text-2xl font-bold">Weather App</h3>
 				<p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. <span className="text-textGreen">Sapiente</span> at nostrum consequatur maiores itaque aspernatur eos perspiciatis odit molestiae sint.
+				My React.js weather app displays real-time temperature, humidity, pressure, and more for any location. It offers a user-friendly interface and seamless navigation. 
 				</p>
 				<ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
 					<li>HTML5</li>
@@ -42,21 +42,21 @@ const Project = () => {
 					<li>React.js</li>
 				</ul>
 				<div className="text-2xl flex gap-4">
-					<a className="hover:text-textGreen duration-300" href="">
+					<a className="hover:text-textGreen duration-300" href="https://github.com/sumanshadangi/weather-app">
 						<TbBrandGithub/>
 					</a>
-					<a className="hover:text-textGreen duration-300" href="">
+					{/* <a className="hover:text-textGreen duration-300" href="">
 						<AiOutlineYoutube/>
 					</a>
 					<a className="hover:text-textGreen duration-300" href="">
 						<RxOpenInNewWindow/>
-					</a>
+					</a> */}
 				</div>
 			</div>
 			</div>
 		</div>
 		{/* Project two */}
-		<div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
+		{/* <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
 			<div className="flex flex-col xl:flex-row-reverse gap-6">
 				<a
 				className="w-full xl:w-1/2 h-auto relative group" 
@@ -95,7 +95,7 @@ const Project = () => {
 				</div>
 			</div>
 			</div>
-		</div>
+		</div> */}
 		{/* Project three */}
 		</div>
 	</section>

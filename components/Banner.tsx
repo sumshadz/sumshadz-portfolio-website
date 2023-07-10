@@ -24,7 +24,7 @@ const Banner = () => {
         animate={{y: 0, opacity: 1}}
         transition={{duration: 0.5, delay: 0.8}}
         className="text-base md:max-w-[650px] text-textDark font-medium">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque eius quidem quasi itaque, in vero? Molestias amet qui quibusdam repellendus cum numquam omnis nihil, modi excepturi ab, aliquam officiis voluptatum.
+          {`I'm a tech enthusiast and software developer, constantly exploring new technologies and pushing the boundaries of what's possible.`}
         <a href="https://github.com/sumshadz" target="_blank">
             <span className="text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group"> 
             Learn More
@@ -32,13 +32,15 @@ const Banner = () => {
             </span>
         </a>
         </motion.p>
+        <a href="/assets/SumanShadangi-Resume.pdf" target="_blank">
         <motion.button 
         initial={{y: 10, opacity: 0}}
         animate={{y: 0, opacity: 1}}
         transition={{duration: 0.5, delay: 0.9}}
         className="w-52 h-14 text-sm font-titleFont border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300">
-            Check out my project!
+            Check out my Resume!
         </motion.button>
+        </a>
     </section>
   )
 }
