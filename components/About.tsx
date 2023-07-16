@@ -23,19 +23,7 @@ const About = () => {
                         </li>
                         <li className="flex items-center gap-2">
                             <span className="text-textGreen"><AiFillThunderbolt/></span>
-                            HTML5
-                        </li>
-                        <li className="flex items-center gap-2">
-                            <span className="text-textGreen"><AiFillThunderbolt/></span>
-                            CSS3
-                        </li>
-                        <li className="flex items-center gap-2">
-                            <span className="text-textGreen"><AiFillThunderbolt/></span>
-                            Next.js
-                        </li>
-                        <li className="flex items-center gap-2">
-                            <span className="text-textGreen"><AiFillThunderbolt/></span>
-                            Tailwind CSS
+                            Java
                         </li>
                         <li className="flex items-center gap-2">
                             <span className="text-textGreen"><AiFillThunderbolt/></span>
@@ -43,7 +31,23 @@ const About = () => {
                         </li>
                         <li className="flex items-center gap-2">
                             <span className="text-textGreen"><AiFillThunderbolt/></span>
-                            OOPs
+                            AWS
+                        </li>
+                        <li className="flex items-center gap-2">
+                            <span className="text-textGreen"><AiFillThunderbolt/></span>
+                            Typescript
+                        </li>
+                        <li className="flex items-center gap-2">
+                            <span className="text-textGreen"><AiFillThunderbolt/></span>
+                            JavaScript
+                        </li>
+                        <li className="flex items-center gap-2">
+                            <span className="text-textGreen"><AiFillThunderbolt/></span>
+                            Object Oriented Programming
+                        </li>
+                        <li className="flex items-center gap-2">
+                            <span className="text-textGreen"><AiFillThunderbolt/></span>
+                            SQL
                         </li>
                     </ul>
                 </div>
