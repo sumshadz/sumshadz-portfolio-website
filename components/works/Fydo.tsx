@@ -15,7 +15,8 @@ const Fydo = () => {
 		 <ul className="mt-6 flex-col gap-3">
 			<li className="text-base flex gap-2 text-textDark">
 				<span className="text-textGreen mt-1"><TiArrowForward/></span>
-				{`Developed and maintained responsive front-end for the company's admin dashboard using HTML5, CSS, React.js and Typescript. Used Axios to send HTTP requests to APIs.`}
+				{`Developed and maintained responsive front-end for the company's admin dashboard using React.js and Typescript which
+helped administrators to manage user accounts.`}
 			</li>
 			<li className="text-base flex gap-2 text-textDark">
 				<span className="text-textGreen mt-1"><TiArrowForward/></span>
@@ -23,7 +24,8 @@ const Fydo = () => {
 			</li>
 			<li className="text-base flex gap-2 text-textDark">
 				<span className="text-textGreen mt-1"><TiArrowForward/></span>
-				{`Gained valuable experience in front-end development and demonstrated effective collaboration within an agile team environment.`}
+				{`Gained valuable experience in front-end development and demonstrated effective collaboration within an agile team
+environment.`}
 			</li>
 		 </ul>
 		</motion.div>

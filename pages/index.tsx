@@ -8,6 +8,7 @@ import About from "@/components/About";
 import Experience from "@/components/Experience";
 import Project from "@/components/Project";
 import Footer from "@/components/Footer";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
@@ -33,7 +34,7 @@ export default function Home() {
           <Experience/>
           <Project/>
           {/* Archive */}
-          {/* Contact */}
+          <Contact/>
           <Footer/>
         </div>
         <motion.div

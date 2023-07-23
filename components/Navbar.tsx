@@ -88,12 +88,23 @@ const Navbar = () => {
                             ><span className='text-textGreen'>03.</span> Projects
                             </motion.li>
                         </Link>
+                        <Link
+                        onClick={handleScroll}
+                            href="#contact"
+                            className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link">
+                            <motion.li
+                                initial={{ y: -10, opacity: 0 }}
+                                animate={{ y: 0, opacity: 1 }}
+                                transition={{ duration: 0.1, delay: 0.4 }}
+                            ><span className='text-textGreen'>04.</span> Contact
+                            </motion.li>
+                        </Link>
                     </ul>
                     <a href="/assets/SumanShadangi-Resume.pdf" target="_blank">
                         <motion.button
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
-                            transition={{ delay: 0.5 }}
+                            transition={{ delay: 0.6 }}
                             className="px-4 py-2 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-hoverColor duration-300">Resume</motion.button>
                     </a>
                 </div>
@@ -163,19 +174,31 @@ const Navbar = () => {
                             ><span className='text-textGreen'>03.</span> Projects
                             </motion.li>
                         </Link>
+                        <Link
+                        onClick={handleScroll}
+                            href="#contact"
+                            className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link">
+                            <motion.li
+                                initial={{ x: 20, opacity: 0 }}
+                                animate={{ x: 0, opacity: 1 }}
+                                transition={{ duration: 0.2, delay: 0.5, ease: "easeIn" }}
+                            ><span className='text-textGreen'>03.</span> Contact
+                            </motion.li>
+                        </Link>
+                        
                     </ul>
                     <a href="/assets/SumanShadangi-Resume.pdf" target="_blank">
                         <motion.button
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
-                            transition={{ delay: 0.5, ease: "easeIn" }}
+                            transition={{ delay: 0.6, ease: "easeIn" }}
                             className="w-32 h-10 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-hoverColor duration-300">Resume</motion.button>
                     </a>
                     <div className="inline-flex items-center justify-center w-full py-6 gap-4">
 		<motion.a 
         initial={{y:20, opacity: 0}}
         animate={{y:0, opacity: 1}}
-        transition={{ delay:0.6, ease:"easeIn"}}
+        transition={{ delay:0.7, ease:"easeIn"}}
         href="https://github.com/sumshadz" target="_blank">
                 <span className="w-10 h-10 text-xl bg-bodyColor border-[1px] border-zinc-700 hover:border-textGreen text-zinc-200 rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
                     <TbBrandGithub/>
@@ -184,7 +207,7 @@ const Navbar = () => {
 			<motion.a 
         initial={{y:20, opacity: 0}}
         animate={{y:0, opacity: 1}}
-        transition={{ delay:0.65, ease:"easeIn"}} href="https://www.linkedin.com/in/suman-shadangi-0969a6203/" target="_blank">
+        transition={{ delay:0.75, ease:"easeIn"}} href="https://www.linkedin.com/in/suman-shadangi-0969a6203/" target="_blank">
                 <span className="w-10 h-10 text-xl bg-bodyColor border-[1px] border-zinc-700 hover:border-textGreen text-zinc-200 rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
                     <SlSocialLinkedin/>
                 </span>
@@ -192,7 +215,7 @@ const Navbar = () => {
 			<motion.a 
         initial={{y:20, opacity: 0}}
         animate={{y:0, opacity: 1}}
-        transition={{ delay:0.70, ease:"easeIn"}} href="https://instagram.com/sumanshadangi?igshid=YmM0MjE2YWMzOA==" target="_blank">
+        transition={{ delay:0.80, ease:"easeIn"}} href="https://instagram.com/sumanshadangi?igshid=YmM0MjE2YWMzOA==" target="_blank">
                 <span className="w-10 h-10 text-xl bg-bodyColor border-[1px] border-zinc-700 hover:border-textGreen text-zinc-200 rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
                     <SlSocialInstagram/>
                 </span>
@@ -202,7 +225,7 @@ const Navbar = () => {
                                 <motion.a
     initial={{opacity: 0}}
     animate={{opacity: 1}}
-    transition={{delay: 0.72, ease: "easeIn"}}
+    transition={{delay: 0.82, ease: "easeIn"}}
     className="text-sm w-72 tracking-widest text-textGreen text-center mt-4"
     href="mailto:sumshadz@gmail.com"
     >
