@@ -227,9 +227,9 @@ const Navbar = () => {
     animate={{opacity: 1}}
     transition={{delay: 0.82, ease: "easeIn"}}
     className="text-sm w-72 tracking-widest text-textGreen text-center mt-4"
-    href="mailto:sumshadz@gmail.com"
+    href="mailto:sumanshadangi@gmail.com"
     >
-        <p>sumshadz@gmail.com</p>
+        <p>sumanshadangi@gmail.com</p>
     </motion.a>
                             </motion.div>
                         </div>
