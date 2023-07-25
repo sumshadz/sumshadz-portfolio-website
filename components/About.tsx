@@ -43,6 +43,10 @@ const About = () => {
                         </li>
                         <li className="flex items-center gap-2">
                             <span className="text-textGreen"><AiFillThunderbolt/></span>
+                            TailWind CSS
+                        </li>
+                        <li className="flex items-center gap-2">
+                            <span className="text-textGreen"><AiFillThunderbolt/></span>
                             Object Oriented Programming
                         </li>
                         <li className="flex items-center gap-2">
